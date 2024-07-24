@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# CekResi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Available Scripts
+**CekResi** adalah aplikasi pelacakan paket yang dibuat menggunakan ReactJS dan Tailwind CSS, serta menggunakan API dari Binderbyte. Aplikasi ini memungkinkan pengguna untuk melacak status pengiriman paket dari berbagai kurir dengan mudah.
 
-In the project directory, you can run:
+## Fitur
 
-### `npm start`
+- Pelacakan paket dari berbagai kurir seperti Shopee Express, JNE, J&T, dan lain-lain.
+- Antarmuka pengguna yang responsif dan modern menggunakan Tailwind CSS.
+- Penggunaan API Binderbyte untuk mendapatkan data pelacakan paket yang akurat dan real-time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Teknologi yang Digunakan
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ReactJS](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Binderbyte API](https://binderbyte.com/)
 
-### `npm test`
+## Instalasi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone repositori ini**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/vickymaulana/cekresi.git
+   cd cekresi
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instal dependensi menggunakan pnpm**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Pastikan Anda memiliki Node.js dan pnpm terinstal di mesin Anda, kemudian jalankan perintah berikut:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   pnpm install
+   ```
 
-### `npm run eject`
+3. **Jalankan aplikasi**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Untuk menjalankan aplikasi dalam mode pengembangan, jalankan:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   pnpm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Aplikasi akan terbuka secara otomatis di browser pada URL [http://localhost:3000](http://localhost:3000).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Build
 
-## Learn More
+Untuk membangun aplikasi untuk produksi ke folder `build`, jalankan:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+pnpm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ini akan mengoptimalkan build untuk performa terbaik.
 
-### Code Splitting
+## Struktur Proyek
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```plaintext
+cekresi/
+|-- public/
+|   |-- favicon.ico
+|   |-- index.html
+|   |-- logo192.webp
+|   |-- manifest.json
+|-- src/
+|   |-- api.js
+|   |-- App.js
+|   |-- index.js
+|   |-- index.css
+|   |-- TrackingForm.js
+|-- package.json
+|-- pnpm-lock.yaml
+|-- README.md
+```
 
-### Analyzing the Bundle Size
+## Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Kami menerima kontribusi dari siapa pun. Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan Anda. Pastikan untuk mengikuti panduan kontribusi kami.
 
-### Making a Progressive Web App
+## Lisensi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dibuat dengan ❤️ oleh [Vicky Maulana](https://github.com/vickymaulana)
